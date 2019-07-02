@@ -1,0 +1,44 @@
+https://opensource.com/article/18/1/step-step-guide-git
+
+
+1. Create repository
+
+
+
+2.  reate local folder
+
+
+mkdir Demo
+
+
+
+cd Demo
+
+echo "#Demo" >> README.md
+
+
+
+
+cat README.md
+
+
+
+git init
+
+
+git add *
+
+
+git commit -m "first commit"
+
+
+
+
+
+
+git remote add origin https://github.com/<your_username>/Demo.git
+
+
+
+
+git push -u origin master
